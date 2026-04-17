@@ -137,10 +137,21 @@ export const experienceData = [
 ];
 
 export const contactData = {
-  // Sign up at emailjs.com and replace these values
-  emailjsServiceId: "YOUR_SERVICE_ID",
-  emailjsTemplateId: "YOUR_TEMPLATE_ID",
-  emailjsPublicKey: "YOUR_PUBLIC_KEY",
+  /**
+   * 📧 HOW TO SET UP EMAILJS:
+   * 1. Sign up free at https://www.emailjs.com
+   * 2. Add an Email Service (Gmail/Outlook) → copy the Service ID below
+   * 3. Create an Email Template using these variables:
+   *      {{name}}    → sender's name
+   *      {{email}}   → sender's email (set as Reply-To)
+   *      {{subject}}  → message subject
+   *      {{message}} → message body
+   *    Copy the Template ID below
+   * 4. Go to Account → API Keys → copy your Public Key below
+   */
+  emailjsServiceId: "service_kxt6ozh",   // e.g. "service_abc123"
+  emailjsTemplateId: "template_1oejc5j",  // e.g. "template_xyz789"
+  emailjsPublicKey: "a_702oLXlV9FrVLsc",   // e.g. "abcDEF123456"
 };
 
 export const navLinks = [
